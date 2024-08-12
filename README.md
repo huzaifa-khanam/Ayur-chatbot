@@ -1,4 +1,4 @@
-*Ayur - Phenotype Determination Chatbot*
+Ayur - Phenotype Determination Chatbot
 Overview:
 Ayur is an interactive web-based chatbot designed to help users determine their Ayurvedic phenotype, also known as dosha, by answering a series of questions. The chatbot uses principles from Ayurveda, an ancient system of medicine that classifies individuals into three primary doshas—Vata, Pitta, and Kapha—based on their physical and emotional characteristics.
 
