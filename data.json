@@ -1,0 +1,159 @@
+
+{
+     "intro": {
+       "message": "Hello! I'm Ayur, your virtual guide to understanding your dosha or phenotype. I'll ask you a series of questions about your physical and mental characteristics to help determine your dominant dosha. Please answer each question as accurately as possible. Let's get started!"
+     },
+
+     "questions": [
+       {
+         "id": 1,
+         "question": "What is your body type?",
+         "options": ["Lean", "Medium", "Well build"],
+         "category": "body_type"
+       },
+       {
+         "id": 2,
+         "question": "What is your hair type?",
+         "options": ["Rough", "Scanty and Grey", "Curly"],
+         "category": "hair_type"
+       },
+       {
+         "id": 3,
+         "question": "What is your skin type?",
+         "options": ["Dry", " More moles or freckles", "Smooth and moist"],
+         "category": "skin_type"
+       },
+       {
+         "id": 4,
+         "question": "What is your complexion?",
+         "options": ["Dull or darkish", "Fair", "Whitish(Pale)"],
+         "category": "complexion"
+       },
+       {
+         "id": 5,
+         "question": "What is your body movement type?",
+         "options": ["Rapid and unstedy", "Normal", "Less"],
+         "category": "body_movement"
+       },
+       {
+         "id": 6,
+         "question": "How would you describe your appetite or hunger patterns?",
+         "options": ["Variable (cravings or irregular appetite)","Strong (consistent and intense appetite)","Constant (steady and moderate appetite)"],
+         "category": "hunger"
+       },
+       {
+         "id": 7,
+         "question": "How would you describe your habit of taking food?",
+         "options": ["Fast","Unusual","Slow"],
+         "category": "food"
+       },
+       {
+         "id": 8,
+         "question": "How would you describe your thirst?",
+         "options": ["Normal","Abundantly","Less"],
+         "category": "thirst"
+       },
+       {
+         "id": 9,
+         "question": "How would you describe your memory?",
+         "options": ["Short-term","Average","Long-term"],
+         "category": "memory"
+       },
+       {
+         "id": 10,
+         "question": "How would you describe your Sleep?",
+         "options": ["Disrupted","Little but sound","Abundant"],
+         "category": "sleep"
+       },
+       
+       {
+         "id": 11,
+         "question": "How would you find that you are more affected by  ?",
+         "options": ["Cold","Hot","Not Specified"],
+         "category": "intolerance_to"
+       },
+       {
+         "id": 12,
+         "question": "How would you rate your resistance to disease?",
+         "options": ["Poor","Medium","Good"],
+         "category": "resistance_to"
+       },
+       {
+         "id": 13,
+         "question": "How would you rate your mood?",
+         "options": ["Changes Quickly","Changes Slowly","Steady"],
+         "category": "mood"
+       }
+     ],
+     "categories": {
+       "body_type": {
+         "lean": "vata",
+         "medium": "pitta",
+         "well build": "kapha"
+       },
+       "hair_type": {
+         "rough": "vata",
+         "scanty and grey": "pitta",
+         "curly": "kapha"
+       },
+       "skin_type": {
+         "rough ": "vata",
+         " more moles or freckles": "pitta",
+         "smooth and moist": "kapha"
+       },
+       "complexion": {
+         "dull or darkish": "vata",
+         "fair": "pitta",
+         "whitish(pale)": "kapha"
+       },
+       "body_movement": {
+         "rapid and unstedy": "vata",
+         "normal": "pitta",
+         "less": "kapha"
+       },
+       "hunger": {
+         "variable": "vata",
+         "strong": "pitta",
+         "constant": "kapha"
+       },
+       "food": {
+         "fast": "vata",
+         "unusual": "pitta",
+         "slow": "kapha"
+       },
+       "thirst": {
+         "normal": "vata",
+         "abundantly": "pitta",
+         "less": "kapha"
+       },
+       "memory": {
+         "short-term": "vata",
+         "average": "pitta",
+         "long-term": "kapha"
+       },
+       "sleep": {
+         "disrupted": "vata",
+         "little": "pitta",
+         "abundant": "kapha"
+       },
+       "intolerance_to": {
+         "cold": "vata",
+         "hot": "pitta",
+         "not specifies": "kapha"
+       },
+       "resistance_to": {
+         "cold": "vata",
+         "hot": "pitta",
+         "not specified": "kapha"
+       },
+       "mood": {
+         "changes quickly": "vata",
+         "changes slowly": "pitta",
+         "steady": "kapha"
+       }
+     },
+     "final_result": {
+    "message": "Thank you for providing your responses! Based on your answers, your dominant dosha is: [dominant_dosha]. This dosha represents your primary constitution according to Ayurvedic principles. It’s important to consider this in your daily life and wellness practices. If you have any questions or need personalized advice, feel free to ask!"
+  }
+   }
+   
